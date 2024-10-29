@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: "Rubik";
+}
+.container__nav{
+    max-width: 1171px;
+    width: 100%;
+    margin: 55px auto;
+    height: 50px;
+}
+.navigatsion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav__item{
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+transition: 0.3s ease-in-out;
+}
+.nav__item:hover{
+    color: rgb(255, 104, 56);
+    transition: 0.3s ease-in-out;
+}
+.nav__btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+background: rgb(255, 122, 80);
+border: none;
+cursor: pointer;
+}
+.nav__btn:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 1px grey;
+    color: black;
+}
+.section__container{
+    max-width: 1268px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.span{
+color: rgb(255, 122, 80);
+}
+.section__title{
+    font-family: "Rubik";
+font-size: 66px;
+font-weight: 500;
+line-height: 78px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-top: 213px;
+color: rgb(54, 56, 83);
+margin-bottom: 23px;
+}
+.section__mintitle{
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.section__btn{
+    width: 163px;
+height: 50px;
+border-radius: 5px;
+cursor: pointer;
+/* Drop Shadow */
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+/* Secondary */
+background: rgb(255, 122, 80);
+color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+margin-top: 44px;
+transition: 0.3s ease-in-out;
+
+}
+.section__btn:hover{
+transition: 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 1px grey;
+    color: black;
+}
+.title__two{
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 95px;
+}
+.section__btn2{
+    width: 176px;
+height: 58px;
+border-radius: 30px 30px 1px 30px;
+transition: 0.3s ease-in-out;
+
+/* Clor shadow */
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+/* Secondary */
+background: rgb(255, 122, 80);
+color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+margin-top: 141px;
+cursor: pointer;
+}
+.section__btn2:hover{
+transition: 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 1px grey;
+    color: black;
+    }
+.title__top__restaruant{
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+width: 360px;
+margin: 44px auto;
+}
+.container__3{
+    max-width: 1171px;
+    width: 100%;
+    margin: 55px auto;
+}
+.wrapper__list{
+    display: flex;
+    gap: 43px;
+}
+.wrapper__item{
+    width: 361px;
+    list-style: none;
+}
+.wrapper__title{
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 22px;
+margin-left: 20px;
+}
+.wrapper__mintitle{
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 14px;
+margin-bottom: 22px;
+margin-left: 20px;
+}
+.wrapper__mintitle::before{
+    background-image: url("images/timer\ 1.png");
+    content: "ㅤㅤ";
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+}
+.btn__3{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(255, 122, 80);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 20px;
+        transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+.btn__3:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 1px grey;
+    color: black;
+}
+.text__container{
+    width: 538px;
+height: 174px;
+margin-top: 281px;
+}
+.title__our{
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 30px;
+}
+.matn{
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section__4{
+    display: flex;
+}
+.four__picture{
+    margin-top: 162px;
+}
+.container__footer{
+    width: 1170px;
+    margin-bottom: 197px;
+    margin: 112px auto;
+height: 312px;
+border-radius: 20px;
+background-color: rgb(255, 122, 80);
+}
+.footer__title{
+    color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 59px;
+padding-bottom: 72.45px;
+}
+.input__container{
+    width: 838.5px;
+    border-radius: 70px;
+box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+background-color: rgb(255, 255, 255);
+height: 78px;
+display: flex;
+align-items: center;
+margin: 0 auto;
+gap: 387px;
+}
+.input{
+    margin-left: 35px;
+    /* padding: 24px 43px; */
+    outline: none;
+    border: none;
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.btn__input{
+    width: 191.1px;
+height: 58.5px;
+border-radius: 70px;
+cursor: pointer;
+/* Secondary */
+background-color: rgb(255, 122, 80);
+border: none;
+color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+transition: 0.3s ease-in-out;
+
+}
+.btn__input:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 1px grey;
+    color: black;
+}
+
+
+
